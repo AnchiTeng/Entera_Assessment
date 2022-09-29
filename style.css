@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    background-color: #fff;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+
+.container {
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 64%;
+    grid-column-gap:32px;
+    place-items: center;
+    padding: 10px;
+  }
+
+.artwork-container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.artwork_intro {
+    padding-top: 35px;
+    
+}
+
+.artwork_title {
+    text-align:start; 
+}
+
+.artist {
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    color: darkgray;
+    text-align:start;
+}
+
+.artwork {
+    background-color: lightgrey;
+}
+
+.image {
+  
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 64%;
+    width: 64%;
+}
+
+.addtionalimages {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+    
