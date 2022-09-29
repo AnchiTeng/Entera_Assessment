@@ -1,6 +1,6 @@
- //const url = 'https://collectionapi.metmuseum.org/public/collection/v1/objects/436121'
+ const url = 'https://collectionapi.metmuseum.org/public/collection/v1/objects/436121'
 // uncomment next line to run mutiple images artwork test case: 
-const url = 'https://collectionapi.metmuseum.org/public/collection/v1/objects/436535'
+//const url = 'https://collectionapi.metmuseum.org/public/collection/v1/objects/436535'
 async function fetchMetApi() {
     const response = await fetch(url);
     const data = await response.json();
